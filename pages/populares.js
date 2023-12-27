@@ -3,9 +3,9 @@ import React from "react";
 import DetallesProducto from "../components/Layouts/DetallesProducto";
 import useProductos from "../hooks/useProductos";
 
-export default function Home() {
+export default function populares() {
 
-  const {productos} = useProductos("creado")
+  const {productos} = useProductos("votos")
 
   return (
     <>

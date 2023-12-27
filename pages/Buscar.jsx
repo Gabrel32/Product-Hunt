@@ -9,7 +9,7 @@ const Heading = styled.h1`
   color: blue;
 `;
 
-export default function buscar() {
+export default function Buscar() {
   const {query:{q}} = useRouter()
   const [resultado, setResultado] = useState([])
   const {productos} = useProductos("creado")

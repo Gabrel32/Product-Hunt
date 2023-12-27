@@ -18,7 +18,7 @@ const STADE_INICIAL = {
     descripcion:"",
     url:""
 }
-export default function nuevoProducto(){
+export default function NuevoProducto(){
   const router = useRouter()
   const {valores, error, submitForm, handleSubmit, handleChange,handleBlur } = useValidacion(STADE_INICIAL,validarCrearProducto,crearProducto)
   const {nombre, empresa, imagen, descripcion, url} = valores

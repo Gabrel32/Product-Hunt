@@ -13,7 +13,7 @@ const STADE_INICIAL = {
 }
 
 
-export default function crearCuenta() {
+export default function Login() {
   const {valores, error, submitForm, handleSubmit, handleChange,handleBlur } = useValidacion(STADE_INICIAL,validarIniciarSesion,iniciarSesion)
   const {email, password} = valores
 

@@ -3,7 +3,7 @@ import React from "react";
 import DetallesProducto from "../components/Layouts/DetallesProducto";
 import useProductos from "../hooks/useProductos";
 
-export default function populares() {
+export default function Populares() {
 
   const {productos} = useProductos("votos")
 

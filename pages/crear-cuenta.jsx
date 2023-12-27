@@ -15,7 +15,7 @@ const STADE_INICIAL = {
     email:"",
     password:""
 }
-export default function crearCuenta() {
+export default function CrearCuenta() {
     const {valores, error, submitForm, handleSubmit, handleChange,handleBlur } = useValidacion(STADE_INICIAL,validarCrearCuenta,crearCuenta)
     const {nombre, email, password} = valores
 

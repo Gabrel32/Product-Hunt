@@ -2,7 +2,6 @@ import React from 'react'
 import Header from './Header'
 import { Global, css } from '@emotion/react'
 import Head from 'next/head'
-import normalize from "normalize.css"
 
 
 
@@ -11,7 +10,6 @@ function Layout(props) {
     <>
     <Head>
         <title>Product Hunt Firebase y Next.js</title>
-        <link rel="stylesheet" href={normalize} />
         <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Lato:wght@400;700;900&family=PT+Sans&family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet"/>
         <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Lato:wght@400;700;900&family=PT+Sans&family=Roboto+Slab:wght@100;400;700&family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet"/>
         <link rel="stylesheet" href="/static/styles/app.css" />

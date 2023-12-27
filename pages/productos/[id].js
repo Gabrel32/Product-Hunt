@@ -10,8 +10,7 @@ import formatDistanceToNow from 'date-fns/formatDistanceToNow'
 import es from 'date-fns/locale/es'
 import { Campo, InputSubmit } from '../../components/User-Interface/Formulario'
 import Boton from '../../components/User-Interface/Boton'
-import Link from 'next/link'
-import { tr } from 'date-fns/locale'
+
 
 
 

@@ -2,8 +2,7 @@ import Layout from "../components/Layouts/Layout";
 import styled from "@emotion/styled"
 import { useRouter } from "next/router";
 import useProductos from "../hooks/useProductos";
-import { useEffect, useState } from "react";
-import React from 'react'
+import React, { useEffect, useState } from "react";
 import DetallesProducto from "../components/Layouts/DetallesProducto";
 
 const Heading = styled.h1`
